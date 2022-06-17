@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wavy.css">
+    <title>Lets Make a File</title>
+</head>
+<body>
+    <!-- forms can be used for storing data,
+     getting info from a user,
+     used as a main point for interaction between a user and a web application -->
+
+     <!-- Form with inputs for email,
+     text area - User can type whatever they want and submit it,
+     name -> username ,
+     and submit button -->
+
+
+    <h1>login</h1>
+    <div id="login-form">
+        <!-- Let's put a form here! -->
+        <!-- Action is where the form will submit TO (URL)
+        Method is HOW the form will be submitted - GET, POST, PUT, DELETE
+        NO ATTRIBUTES = Form submits to main index.html -->
+        <form>
+
+           <label for="username">Username</label>
+           <input type="text" name="username" id="username">
+               <br>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+        </br>
+        <!-- Adding email in HTML -->
+        <label for="email">Email</label>
+        <input type="email" name="email" />
+
+        <input type="submit" name="Submit" />
+
+        </form>
+
+    </div>
+    
+</body>
+<script src = "./scoop.js"></script>
+</html>
